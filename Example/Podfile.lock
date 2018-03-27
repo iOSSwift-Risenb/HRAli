@@ -1,0 +1,16 @@
+PODS:
+  - HRAli (0.1.0)
+
+DEPENDENCIES:
+  - HRAli (from `../`)
+
+EXTERNAL SOURCES:
+  HRAli:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HRAli: c2bd3d01b2c3d3b894840063164da8b8d749fa7a
+
+PODFILE CHECKSUM: a228620990ab3d1340b1ca22eb5cedc069f1e23f
+
+COCOAPODS: 1.3.1

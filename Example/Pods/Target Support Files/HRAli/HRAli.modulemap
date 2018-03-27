@@ -1,0 +1,6 @@
+framework module HRAli {
+  umbrella header "HRAli-umbrella.h"
+
+  export *
+  module * { export * }
+}

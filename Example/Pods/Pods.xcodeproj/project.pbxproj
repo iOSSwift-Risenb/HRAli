@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002F1BAE661CE7A6C39AA1ED95E5C2B6 /* AliHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E620419CAEB98890E947A3F7B0D91A /* AliHelper.m */; };
+		01E1307A952745773FFD0E9E69F5B2CB /* Ali.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F31FACFE2CD11B60106DC012EC624D /* Ali.swift */; };
+		0E3BD1A8BB193B090BA09ED0D4CEDC7C /* HRAli-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCD5CB582222B3259EF718F23FED2B1 /* HRAli-dummy.m */; };
+		2A0CDFB9898CA4CBE7921796D5E36EE0 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F430BA9F56908FF83E84184B13DC3FC9 /* AlipaySDK.bundle */; };
+		35276ABD4A338A0C84AD680464B70484 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCD4BC30FB428426AD82F308276840B /* CoreMotion.framework */; };
+		44190412682F32BA283790EB38AAB0D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */; };
+		627B1D35385D406498594341209449A1 /* Pods-HRAli_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13C81421580C7BD8E8EB60E8A38BE928 /* Pods-HRAli_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A303EF9E9BC5EE1E0976A5F1EA9725F /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3092BCB1EE57B87C639B83D44AE06EAE /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C93C8509F9DC3D008A9D7A97704283F /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAF6212E9959508D7805D576586F1D1 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5638383DB7C96B1C65E736A0AE5785 /* AliHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FEE07F63E6C86764985568624B666D /* AliHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856B778177EFDFC9847317C678E2F64B /* Pods-HRAli_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E696DE84DB2217B1A5638A0D95C642A /* Pods-HRAli_Example-dummy.m */; };
+		8ACA1DDA0B84679178BCED1CBB9FD001 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41E32129C43F702B405D91CEB606B94 /* CoreTelephony.framework */; };
+		97372C91FA71096A64B60A409C834BBF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270C5A701388220F352A553C52E7BE4B /* SystemConfiguration.framework */; };
+		AA7A981B2F87CB79E6A6759B1C18BB7D /* Pods-HRAli_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEAD206DDF36FA565F774E4246D069B /* Pods-HRAli_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA5DCBC6BADFF1A7ED036ED4AF0E3AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */; };
+		BDBD266571BE0494824941D33FD96FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */; };
+		C088F0ECAB61F22172755794EB0D6145 /* Pods-HRAli_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCD5DF4D7F3457EE0F5522E7536303E /* Pods-HRAli_Tests-dummy.m */; };
+		C8B79F3E2E3FD4918DAC465C838D6FF0 /* HRAli-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89F60DF37AD0EE3AAB1609CC5AEF40F /* HRAli-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC3453FD4CF01F45EFD27C4EAC9DC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A79B51FC8C2574FA65D594051D5FF05;
+			remoteInfo = HRAli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DEF70DF08B6B2C5BDE66626FE94D2A /* Pods-HRAli_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRAli_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		06389BC5A3B0F4648FDA2FF37CF6879E /* Pods-HRAli_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRAli_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11A13EAD349A880AA7D5C2445B2A2D87 /* Pods-HRAli_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRAli_Tests.modulemap"; sourceTree = "<group>"; };
+		13C81421580C7BD8E8EB60E8A38BE928 /* Pods-HRAli_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRAli_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1909715AC0EA4B873A009C9EFA9D01FB /* Pods-HRAli_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HRAli_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		270C5A701388220F352A553C52E7BE4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		27FEE07F63E6C86764985568624B666D /* AliHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AliHelper.h; sourceTree = "<group>"; };
+		29E620419CAEB98890E947A3F7B0D91A /* AliHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AliHelper.m; sourceTree = "<group>"; };
+		3092BCB1EE57B87C639B83D44AE06EAE /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
+		37BF30DD265284997000C29AD8704E3F /* Pods-HRAli_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRAli_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3915C63A2FB983467519F4E425ADA2B3 /* Pods-HRAli_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HRAli_Example.modulemap"; sourceTree = "<group>"; };
+		3C92CAE5ACF5B46CA7C50FBF8FB99083 /* Pods-HRAli_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRAli_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3DEAD206DDF36FA565F774E4246D069B /* Pods-HRAli_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HRAli_Example-umbrella.h"; sourceTree = "<group>"; };
+		4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51D636729AF8B60C4C1795A9221DCD06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D098ABBE64BACEC2C2B442352CA9AA /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = HRAli/Lib/Alipay/AlipaySDK.framework; sourceTree = "<group>"; };
+		56DF9D10839C88CDAE8E836E208AD252 /* Pods-HRAli_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRAli_Tests-resources.sh"; sourceTree = "<group>"; };
+		6E696DE84DB2217B1A5638A0D95C642A /* Pods-HRAli_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRAli_Example-dummy.m"; sourceTree = "<group>"; };
+		76F31FACFE2CD11B60106DC012EC624D /* Ali.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Ali.swift; sourceTree = "<group>"; };
+		7B775E66C46A0C1B4F8DFB681A17318B /* Pods-HRAli_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRAli_Example-resources.sh"; sourceTree = "<group>"; };
+		8B2976DD9FFD1C2EBB574BE7CD305257 /* Pods-HRAli_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRAli_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8B75B02BE8370506016842CD3E2E2570 /* HRAli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HRAli.framework; path = HRAli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80F60BD1D48BD299DE6B7E40C3658B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EF7432D5235092AAB3FF0F3AA8C2B7 /* Pods_HRAli_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRAli_Example.framework; path = "Pods-HRAli_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA48356AF5D6B38634E9D35FA345EB3D /* Pods-HRAli_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HRAli_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBCD5DF4D7F3457EE0F5522E7536303E /* Pods-HRAli_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HRAli_Tests-dummy.m"; sourceTree = "<group>"; };
+		BDCD5CB582222B3259EF718F23FED2B1 /* HRAli-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRAli-dummy.m"; sourceTree = "<group>"; };
+		C1CAD8E96CFCF956ACA70BAA5183375F /* HRAli.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRAli.xcconfig; sourceTree = "<group>"; };
+		C89F60DF37AD0EE3AAB1609CC5AEF40F /* HRAli-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRAli-umbrella.h"; sourceTree = "<group>"; };
+		DAD4C4F1ADCDD11613DC0D08FAB1B246 /* Pods-HRAli_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRAli_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DADE8A5761DF88C69AC1D069F41A9274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAF6212E9959508D7805D576586F1D1 /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlipaySDK.h; sourceTree = "<group>"; };
+		DF9E0F56BA97BA46F98AFE2EDFDA8CCB /* HRAli-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRAli-prefix.pch"; sourceTree = "<group>"; };
+		E2734D6FF47A18A9323906A3230BA835 /* Pods_HRAli_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HRAli_Tests.framework; path = "Pods-HRAli_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4473D6D4BA0895CBBE44816ABE11EA5 /* Pods-HRAli_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HRAli_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EAEAE0A4BC33FC6C8B4C4D327DCD5F28 /* Pods-HRAli_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HRAli_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F41E32129C43F702B405D91CEB606B94 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		F430BA9F56908FF83E84184B13DC3FC9 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = HRAli/Lib/Alipay/AlipaySDK.bundle; sourceTree = "<group>"; };
+		FC2422CC4F295BAC8FBEFBB5E643B774 /* HRAli.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HRAli.modulemap; sourceTree = "<group>"; };
+		FCCD4BC30FB428426AD82F308276840B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01836BD196DB06325E2DE6FBDD23B0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBD266571BE0494824941D33FD96FA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E4870E31BD49B8500E17FC69236F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44190412682F32BA283790EB38AAB0D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FF0CEAE14CF985055C46AF0A9B05D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35276ABD4A338A0C84AD680464B70484 /* CoreMotion.framework in Frameworks */,
+				8ACA1DDA0B84679178BCED1CBB9FD001 /* CoreTelephony.framework in Frameworks */,
+				BCA5DCBC6BADFF1A7ED036ED4AF0E3AB /* Foundation.framework in Frameworks */,
+				97372C91FA71096A64B60A409C834BBF /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA05EEB54AE72FA004F6A5D52690CEA /* HRAli */ = {
+			isa = PBXGroup;
+			children = (
+				EF14C0440A794EFFD689C37C193C4137 /* Classes */,
+				2F2C4D9E8421DB1658A53DA89B59EAEB /* Frameworks */,
+				D0DBE8EFDCE0B6BD9138344510C5C75F /* Lib */,
+				A5BBFBCE125CD62020F4A481E2626EFA /* Resources */,
+				C85CB46301B725D215D81F91D6DE5B52 /* Support Files */,
+			);
+			name = HRAli;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E35936F259A05E946E8F874D367F9D0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F0B8A3FCFC326ABDD4CB3773B43F56B /* Pods-HRAli_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A80F60BD1D48BD299DE6B7E40C3658B3 /* Info.plist */,
+				11A13EAD349A880AA7D5C2445B2A2D87 /* Pods-HRAli_Tests.modulemap */,
+				06389BC5A3B0F4648FDA2FF37CF6879E /* Pods-HRAli_Tests-acknowledgements.markdown */,
+				02DEF70DF08B6B2C5BDE66626FE94D2A /* Pods-HRAli_Tests-acknowledgements.plist */,
+				BBCD5DF4D7F3457EE0F5522E7536303E /* Pods-HRAli_Tests-dummy.m */,
+				3C92CAE5ACF5B46CA7C50FBF8FB99083 /* Pods-HRAli_Tests-frameworks.sh */,
+				56DF9D10839C88CDAE8E836E208AD252 /* Pods-HRAli_Tests-resources.sh */,
+				13C81421580C7BD8E8EB60E8A38BE928 /* Pods-HRAli_Tests-umbrella.h */,
+				EAEAE0A4BC33FC6C8B4C4D327DCD5F28 /* Pods-HRAli_Tests.debug.xcconfig */,
+				DAD4C4F1ADCDD11613DC0D08FAB1B246 /* Pods-HRAli_Tests.release.xcconfig */,
+			);
+			name = "Pods-HRAli_Tests";
+			path = "Target Support Files/Pods-HRAli_Tests";
+			sourceTree = "<group>";
+		};
+		2F2C4D9E8421DB1658A53DA89B59EAEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55D098ABBE64BACEC2C2B442352CA9AA /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E48347CCFC8349AD42E244851ABDCF4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DA05EEB54AE72FA004F6A5D52690CEA /* HRAli */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		515508D21FD4B114045ACE2F0FD47D86 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF6212E9959508D7805D576586F1D1 /* AlipaySDK.h */,
+				3092BCB1EE57B87C639B83D44AE06EAE /* APayAuthInfo.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		66B308D2F329E4A208F568EBD600B676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B75B02BE8370506016842CD3E2E2570 /* HRAli.framework */,
+				B8EF7432D5235092AAB3FF0F3AA8C2B7 /* Pods_HRAli_Example.framework */,
+				E2734D6FF47A18A9323906A3230BA835 /* Pods_HRAli_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3E48347CCFC8349AD42E244851ABDCF4 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				66B308D2F329E4A208F568EBD600B676 /* Products */,
+				CE0B039A6C818F2335236BEB7EE19233 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E35936F259A05E946E8F874D367F9D0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD4BC30FB428426AD82F308276840B /* CoreMotion.framework */,
+				F41E32129C43F702B405D91CEB606B94 /* CoreTelephony.framework */,
+				4EF5B7397A313CF5F2DB973B47CBA30C /* Foundation.framework */,
+				270C5A701388220F352A553C52E7BE4B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8F685B791CC0FC57591ABFA2B7857B82 /* Pods-HRAli_Example */ = {
+			isa = PBXGroup;
+			children = (
+				51D636729AF8B60C4C1795A9221DCD06 /* Info.plist */,
+				3915C63A2FB983467519F4E425ADA2B3 /* Pods-HRAli_Example.modulemap */,
+				1909715AC0EA4B873A009C9EFA9D01FB /* Pods-HRAli_Example-acknowledgements.markdown */,
+				BA48356AF5D6B38634E9D35FA345EB3D /* Pods-HRAli_Example-acknowledgements.plist */,
+				6E696DE84DB2217B1A5638A0D95C642A /* Pods-HRAli_Example-dummy.m */,
+				E4473D6D4BA0895CBBE44816ABE11EA5 /* Pods-HRAli_Example-frameworks.sh */,
+				7B775E66C46A0C1B4F8DFB681A17318B /* Pods-HRAli_Example-resources.sh */,
+				3DEAD206DDF36FA565F774E4246D069B /* Pods-HRAli_Example-umbrella.h */,
+				37BF30DD265284997000C29AD8704E3F /* Pods-HRAli_Example.debug.xcconfig */,
+				8B2976DD9FFD1C2EBB574BE7CD305257 /* Pods-HRAli_Example.release.xcconfig */,
+			);
+			name = "Pods-HRAli_Example";
+			path = "Target Support Files/Pods-HRAli_Example";
+			sourceTree = "<group>";
+		};
+		A5BBFBCE125CD62020F4A481E2626EFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F430BA9F56908FF83E84184B13DC3FC9 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BEC634691E82E59F5EBD9157D9165965 /* AlipaySDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				515508D21FD4B114045ACE2F0FD47D86 /* Headers */,
+			);
+			name = AlipaySDK.framework;
+			path = AlipaySDK.framework;
+			sourceTree = "<group>";
+		};
+		C85CB46301B725D215D81F91D6DE5B52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC2422CC4F295BAC8FBEFBB5E643B774 /* HRAli.modulemap */,
+				C1CAD8E96CFCF956ACA70BAA5183375F /* HRAli.xcconfig */,
+				BDCD5CB582222B3259EF718F23FED2B1 /* HRAli-dummy.m */,
+				DF9E0F56BA97BA46F98AFE2EDFDA8CCB /* HRAli-prefix.pch */,
+				C89F60DF37AD0EE3AAB1609CC5AEF40F /* HRAli-umbrella.h */,
+				DADE8A5761DF88C69AC1D069F41A9274 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HRAli";
+			sourceTree = "<group>";
+		};
+		CE0B039A6C818F2335236BEB7EE19233 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F685B791CC0FC57591ABFA2B7857B82 /* Pods-HRAli_Example */,
+				2F0B8A3FCFC326ABDD4CB3773B43F56B /* Pods-HRAli_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D0DBE8EFDCE0B6BD9138344510C5C75F /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D127FF36B78D71DB6AD2447DCBE97C8D /* Alipay */,
+			);
+			name = Lib;
+			path = HRAli/Lib;
+			sourceTree = "<group>";
+		};
+		D127FF36B78D71DB6AD2447DCBE97C8D /* Alipay */ = {
+			isa = PBXGroup;
+			children = (
+				BEC634691E82E59F5EBD9157D9165965 /* AlipaySDK.framework */,
+			);
+			name = Alipay;
+			path = Alipay;
+			sourceTree = "<group>";
+		};
+		EF14C0440A794EFFD689C37C193C4137 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76F31FACFE2CD11B60106DC012EC624D /* Ali.swift */,
+				27FEE07F63E6C86764985568624B666D /* AliHelper.h */,
+				29E620419CAEB98890E947A3F7B0D91A /* AliHelper.m */,
+			);
+			name = Classes;
+			path = HRAli/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AEE79ECBFE6D3AA08C6CA4FE3D76956 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7A981B2F87CB79E6A6759B1C18BB7D /* Pods-HRAli_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A9840323385428D4A068B6B853FC29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5638383DB7C96B1C65E736A0AE5785 /* AliHelper.h in Headers */,
+				6C93C8509F9DC3D008A9D7A97704283F /* AlipaySDK.h in Headers */,
+				6A303EF9E9BC5EE1E0976A5F1EA9725F /* APayAuthInfo.h in Headers */,
+				C8B79F3E2E3FD4918DAC465C838D6FF0 /* HRAli-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D403DF7DB7B3AC232EA4ED96F42C190F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627B1D35385D406498594341209449A1 /* Pods-HRAli_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7A79B51FC8C2574FA65D594051D5FF05 /* HRAli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B9D3E3B855243B01376AF5D635E1A7 /* Build configuration list for PBXNativeTarget "HRAli" */;
+			buildPhases = (
+				1853D9846BC01A7488B97D758F3F61E6 /* Sources */,
+				A2FF0CEAE14CF985055C46AF0A9B05D8 /* Frameworks */,
+				A4A9840323385428D4A068B6B853FC29 /* Headers */,
+				3D68805CFC54124EF2450061923F52F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRAli;
+			productName = HRAli;
+			productReference = 8B75B02BE8370506016842CD3E2E2570 /* HRAli.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E491737DC85A502837A5EC91D6B2721 /* Pods-HRAli_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC58EFBC364207A5B33B1C1456AC0FD3 /* Build configuration list for PBXNativeTarget "Pods-HRAli_Tests" */;
+			buildPhases = (
+				C7E465C981EBAFD7C929C8A79C27F24B /* Sources */,
+				70E4870E31BD49B8500E17FC69236F5D /* Frameworks */,
+				D403DF7DB7B3AC232EA4ED96F42C190F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HRAli_Tests";
+			productName = "Pods-HRAli_Tests";
+			productReference = E2734D6FF47A18A9323906A3230BA835 /* Pods_HRAli_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94EC970FDDEE32B059E82C535786A7D3 /* Pods-HRAli_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F97E0A3BC5921E3E32DD466FF8375A /* Build configuration list for PBXNativeTarget "Pods-HRAli_Example" */;
+			buildPhases = (
+				EA7EFECEDD644CEDD36E6EBF0DBFBCF1 /* Sources */,
+				01836BD196DB06325E2DE6FBDD23B0BE /* Frameworks */,
+				3AEE79ECBFE6D3AA08C6CA4FE3D76956 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620F2FFEFDA8788B9223EE796BFCE596 /* PBXTargetDependency */,
+			);
+			name = "Pods-HRAli_Example";
+			productName = "Pods-HRAli_Example";
+			productReference = B8EF7432D5235092AAB3FF0F3AA8C2B7 /* Pods_HRAli_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 66B308D2F329E4A208F568EBD600B676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A79B51FC8C2574FA65D594051D5FF05 /* HRAli */,
+				94EC970FDDEE32B059E82C535786A7D3 /* Pods-HRAli_Example */,
+				8E491737DC85A502837A5EC91D6B2721 /* Pods-HRAli_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D68805CFC54124EF2450061923F52F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0CDFB9898CA4CBE7921796D5E36EE0 /* AlipaySDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1853D9846BC01A7488B97D758F3F61E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E1307A952745773FFD0E9E69F5B2CB /* Ali.swift in Sources */,
+				002F1BAE661CE7A6C39AA1ED95E5C2B6 /* AliHelper.m in Sources */,
+				0E3BD1A8BB193B090BA09ED0D4CEDC7C /* HRAli-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E465C981EBAFD7C929C8A79C27F24B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C088F0ECAB61F22172755794EB0D6145 /* Pods-HRAli_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7EFECEDD644CEDD36E6EBF0DBFBCF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856B778177EFDFC9847317C678E2F64B /* Pods-HRAli_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		620F2FFEFDA8788B9223EE796BFCE596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRAli;
+			target = 7A79B51FC8C2574FA65D594051D5FF05 /* HRAli */;
+			targetProxy = 5CC3453FD4CF01F45EFD27C4EAC9DC6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B9C48A5DA742FAAC6EB942774A20711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CAD8E96CFCF956ACA70BAA5183375F /* HRAli.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRAli/HRAli-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRAli/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRAli/HRAli.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HRAli;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B1035428BC10D6FA9B9C1FAC4B0A802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CAD8E96CFCF956ACA70BAA5183375F /* HRAli.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HRAli/HRAli-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HRAli/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HRAli/HRAli.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HRAli;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74734B7BD8FC1A5E98E91A64A38F0C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37BF30DD265284997000C29AD8704E3F /* Pods-HRAli_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRAli_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRAli_Example/Pods-HRAli_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRAli_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D63FA81CF4DA9025B33C1A30A449B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD4C4F1ADCDD11613DC0D08FAB1B246 /* Pods-HRAli_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRAli_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRAli_Tests/Pods-HRAli_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRAli_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D42863A92B4C318B0DFA57C8BBD4879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAEAE0A4BC33FC6C8B4C4D327DCD5F28 /* Pods-HRAli_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRAli_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRAli_Tests/Pods-HRAli_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRAli_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAB1E2F70C58912F683A5A7DB62EB8A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2976DD9FFD1C2EBB574BE7CD305257 /* Pods-HRAli_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HRAli_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HRAli_Example/Pods-HRAli_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HRAli_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F97E0A3BC5921E3E32DD466FF8375A /* Build configuration list for PBXNativeTarget "Pods-HRAli_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74734B7BD8FC1A5E98E91A64A38F0C22 /* Debug */,
+				EAB1E2F70C58912F683A5A7DB62EB8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B9D3E3B855243B01376AF5D635E1A7 /* Build configuration list for PBXNativeTarget "HRAli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1035428BC10D6FA9B9C1FAC4B0A802 /* Debug */,
+				2B9C48A5DA742FAAC6EB942774A20711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC58EFBC364207A5B33B1C1456AC0FD3 /* Build configuration list for PBXNativeTarget "Pods-HRAli_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D42863A92B4C318B0DFA57C8BBD4879 /* Debug */,
+				7D63FA81CF4DA9025B33C1A30A449B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

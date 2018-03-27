@@ -25,18 +25,24 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'obgniyum' => 'obgniyum@icloud.com' }
-  s.source           = { :git => 'https://github.com/obgniyum/HRAli.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iOSSwift-Risenb/HRAli.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HRAli/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'HRAli' => ['HRAli/Assets/*.png']
-  # }
+s.source_files = 'HRAli/**/*.{swift,h,m}'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#s.resource_bundles = {
+#    'HRAli' => ['HRAli/**/*.{storyboard,png,jpg}']
+#}
+
+s.resources    = 'HRAli/**/*.bundle'
+
+#s.public_header_files = 'HRAli/**/*.h'
+
+s.vendored_frameworks = 'HRAli/Lib/Alipay/AlipaySDK.framework'
+s.libraries = 'c++', 'z'
+s.frameworks        = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
+
   # s.dependency 'AFNetworking', '~> 2.3'
 end
