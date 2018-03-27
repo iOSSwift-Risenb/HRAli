@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HRAli_Example' do
+  pod 'HRAli', :path => '../'
+
+  target 'HRAli_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
